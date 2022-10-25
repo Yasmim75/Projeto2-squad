@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> formulário (login)</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js"></script>
+
+</head>
+
+<body>
+
+    <div class="content">
+        <header>
+            <!--falta informações-->
+            <img src="" alt="logo da empresa" />
+            <h1>Login</h1>
+        </header>
+        <main>
+            <form>
+                <div class="input-field">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="E-mail" required />
+                </div>
+                <div class="input-field">
+                    <label for="password">Senha</label>
+
+                    <input type="password" placeholder="Senha" id="senha">
+                    <button id="mostrar-password" type="button" aria-label="Aviso: isso exibirá sua senha na tela."></button>
+                    </input>
+                </div>
+                <!--para uma senha formulário de login já existente -->
+                <div class="checkbox"><!--usuario lembra a senha-->
+                    <input type="checkbox" checked id="remind-pass" />
+                    <label for="remind-pass">Lembrar senha</label>
+                </div>
+
+                <button class="enviar" type="submit"> Login</button>
+
+            </form>
+        </main>
+
+        <div class="footer">
+            <span><a href="#">Esqueci minha senha</a></span> <!--criar link para recuperar senha-->
+
+        </div>
+    </div>
+    <footer>
+        todos os direitos reservados &copy; <!--falta informações-->
+    </footer>
+
+
+
+</body>
+
+</html>

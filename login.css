@@ -1,0 +1,22 @@
+/*css da página login*/
+/*falta alterar algumas coisas*/
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+body {
+    background: linear-gradient(90deg, rgb(20, 160, 202)0%, rgb(142, 61, 235), rgb(226, 222, 225)100%);
+    font-size: 16px;
+
+}
+
+input {
+
+    border: 0;
+
+}
+
