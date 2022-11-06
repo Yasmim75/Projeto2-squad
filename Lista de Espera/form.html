@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Lista de Espera</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  </head>
+  <body>
+    <cabeçalho >
+    <nav>
+      <a class ="logo" href ="/">Front Vision </a >
+      <div class =" mobile-menu ">
+        <div class =" line1"></div>
+        <div class =" linha2"> </div>
+        <div class =" line3 "> </div>
+      </div >
+      <ul class ="nav-list ">
+        <li><a href =" # "> Home</a> </li >
+        <li><a href =" # " > Curso </a> </li >
+        <li><a href =" # " > Contato </a> </li >
+        <li><a href =" # " > Lista De Espera </a> </li >
+    
+       <button><h1><a href =" # " > Login </a> </h1 ></button>
+      </ul>
+    </nav>
+  </cabeçalho>
+    <div class="container">
+      <div class="header">
+        <h2>Reserve sua Vaga!</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Nome de usuário</label>
+          <input
+            type="text"
+            id="username"
+            placeholder="Digite seu nome de usuário..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label>
+          <input type="text" id="email" placeholder="Digite seu email.." />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for="password">Senha</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Digite sua senha..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+
+        <div class="form-control">
+          <label for="password-confirmation">Confirmação de senha</label>
+          <input
+            type="password"
+            id="password-confirmation"
+            placeholder="Digite sua senha novamente..."
+          />
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+        <div class="form-control">
+          <label for="password-RG">RG</label>
+          <input
+            type="text" id="RG" placeholder="Digite seu RG..."/>
+          <i class="fas fa-exclamation-circle"></i>
+          <i class="fas fa-check-circle"></i>
+          <small></small>
+        </div>
+        
+        
+          <div class="form-control">
+          <label>Cep:
+          <input name="cep"  type="text" id="cep" placeholder="Digite seu Cep..." value="" size="10" maxlength="9"
+           onblur="pesquisacep(this.value);" /></label><br />
+       
+           <small></small>
+          <label>Rua:
+          <input name="rua" type="text" id="rua" placeholder="Digite sua Rua..."  size="60" /></label><br />
+          
+          <label>Bairro:
+          <input name="bairro" type="text" id="bairro" placeholder="Digite seu Bairro..." size="40" />
+          
+          <label>Numero:
+            <input name="Numero" type="text" id="Numero" placeholder=" Numero..."/></label><br />
+          
+          <label>Cidade:
+          <input name="cidade" type="text" id="cidade" placeholder="Digite sua Cidade..." size="40" /></label><br />
+          
+          <label>UF:
+          <input name="uf" type="text" id="uf" placeholder="Seu UF..." size="2" /></label>
+          
+          
+           <label>Complemento:
+            <input name="Complemento" type="text" id="Complemento" placeholder="Digite o Complemento..."  /></label><br />
+          </div>
+       
+          <button onclick="myFunction()">Enviar</button>
+
+      </form>
+    </div>
+     
+    <script
+      src="https://kit.fontawesome.com/f9e19193d6.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="./form.js"></script>
+    
+   
+
+    <rodapé>
+      <div  class =" container-footer " >
+          <div  class =" row-footer " >
+              
+              <div  class =" footer-col " >
+                  <h4 > Empresa </h4 >
+                  <ul >
+                      <li > <a  href =" # " > Quem somos </a > </li >
+                      <li > <a  href ="" > nossos serviços </a > </li >
+                      <li > <a href ="" > política de privacidade </a > </li >
+                      
+                  </ul >
+              </div >
+              
+              <div  class =" footer-col " >
+                  <h4 > Obter ajuda </h4 >
+                  <ul >
+                      <li > <a  href =" # " > Perguntas Frequentes </a > </li >
+                      <li > <a  href =" # " > Fale Conosco </a > </li >
+                      
+                  </ul >
+              </div >
+              
+              
+              
+              <div  class =" footer-col " >
+                  
+                  <classe div  =" form-sub " >
+                      <formulário >
+                          
+                      </formulário >
+                  </div >
+
+                  <div  class =" medias-socias " >
+                      <a  href =" # " >  <i  class =" fa fa-facebook " > </i >  </a >
+                      <a  href =" # " >  <i  class =" fa fa-instagram " > </i >  </a >
+                      <a  href =" # " >  <i  class =" fa fa-twitter " > </i >  </a >
+                      <a  href =" # " >  <i  class =" fa fa-linkedin " > </i >  </a >
+                  </div >
+
+              </div >
+            
+          </div >
+      </div >
+  </rodapé >
+    <!--fim do roda pé-->
+
+  </body>
+</html>
