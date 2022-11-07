@@ -45,11 +45,10 @@ class MobileNavbar {
   mobileNavbar.init();
   /* cabeçalho fim */ 
 
-  function enviar1(){
-    swal(
-  "Login realizado",
-  "com sucesso",
-  "success"
-);
-    
-}
+
+function enviar(){
+    swal( 
+        "Solicitação enviada com sucesso ",
+    "cheque sua caixa de mensagem.",
+    "success" );
+    }
