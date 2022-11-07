@@ -130,8 +130,9 @@ button{
     width: 550px;
     max-width: 100%;
     overflow: hidden;
-    margin: 230px;
-    
+    margin: 450px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .header{
