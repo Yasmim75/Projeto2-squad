@@ -77,7 +77,7 @@
           <label for="password-confirmation">Confirmação de senha</label>
           <input
             type="password"
-            id="password-confirmation"
+            id="id_passwordconfirmation"
             placeholder="Digite sua senha novamente..."
           />
           <i class="fas fa-exclamation-circle"></i>
@@ -94,7 +94,7 @@
         </div>
         
         
-          <div class="form-control">
+          <div id="form_id" class="form-control">
           <label>Cep:
           <input name="cep"  type="text" id="cep" placeholder="Digite seu Cep..." value="" size="10" maxlength="9"
            onblur="pesquisacep(this.value);" /></label><br />
@@ -120,17 +120,12 @@
             <input name="Complemento" type="text" id="Complemento" placeholder="Digite o Complemento..."  /></label><br />
           </div>
        
-          <button onclick="myFunction()">Enviar</button>
+          <button onclick="checkInputs()">Enviar</button>
 
       </form>
     </div>
      
-    <script
-      src="https://kit.fontawesome.com/f9e19193d6.js"
-      crossorigin="anonymous"
-    ></script>
 
-    <script src="form.js"></script>
     
    
 
@@ -181,5 +176,8 @@
   </rodapé >
     <!--fim do roda pé-->
 
+    <script src="./mvc/controller.js"></script>
+    <script src="./mvc/model.js"></script>
+    <script src="./mvc/views.js"></script>
   </body>
 </html>
